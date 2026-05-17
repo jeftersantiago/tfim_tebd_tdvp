@@ -1,9 +1,9 @@
-using QuantumToolbox
-using LinearAlgebra
-using DataFrames
-using CSV
-
 let
+    using QuantumToolbox
+    using LinearAlgebra
+    using DataFrames
+    using CSV
+
     sx = sigmax()
     sy = sigmay()
     sz = sigmaz()
